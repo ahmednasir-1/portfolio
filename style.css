@@ -117,6 +117,7 @@ button:active {
 
   .container{
     display: flex;
+    padding-top: 34px;
     flex-direction: column;
     justify-content: center;
     align-content: center;
