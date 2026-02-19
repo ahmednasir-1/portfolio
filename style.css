@@ -108,3 +108,19 @@ button:active {
     background: none;
 }
 
+@media screen and (max-width: 870px) {
+  /* CSS styles to apply when the screen width is 600px or less */
+ .navbar{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 82px;
+  }
+}
+
