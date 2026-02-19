@@ -3,13 +3,14 @@
 * {
     margin: 0;
     padding: 0;
-    background-color:#096B68;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 42%, rgba(0, 212, 255, 1) 100%);
 
 }
 
+
 .navbar {
     position: sticky;
-    background-color: black;
     color: white;
     display: flex;
     flex-direction: row;
@@ -19,37 +20,89 @@
     border-radius: 32px;
     font-size: 25px;
     margin: 2px;
-    
-    
-}
-.navbar h3{
-    background: transparent;
-    
-}
-.navbar ul {
-    display: flex;
-    gap: 50px;
-    text-decoration: none;
-    
+
+
 }
 
-.navbar ul li {
+.navbar h3 {
     background: transparent;
-    list-style: none;
+
 }
+
 
 .container {
     display: flex;
-    height: 100vh;
+    /* height: 100%; */
+    padding-top: 196px;
     align-items: center;
     justify-content: center;
     width: 100%;
+    gap: 223px;
 }
 
-.container p {
+#left {
     color: #FFFBDE;
+    background: transparent;
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
     font-size: 45px;
+    display: flex;
+    flex-direction: column;
+    display: block;
+    gap: 23px;
+}
+
+p {
+    background: none;
+}
+
+#right {
+    background-image: url("IMG_7204.jpg");
+    background-size: cover;
+    /* height: 100vh; */
+    width: 278px;
+    height: 278px;
+
+}
+
+/* From Uiverse.io by Creatlydev */
+button {
+    line-height: 1;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.35em;
+    padding: 0.75em 1em;
+    padding-right: 1.25em;
+    color: #fff;
+    border: 1px solid transparent;
+    font-weight: 700;
+    border-radius: 2em;
+    font-size: 1rem;
+    box-shadow: 0 0.7em 1.5em -0.5em hsla(249, 62%, 51%, 0.745);
+    transition: transform 0.3s;
+
+    background: linear-gradient(90deg,
+            rgba(77, 54, 208, 1) 0%,
+            rgba(132, 116, 254, 1) 100%);
+}
+
+.button__icon {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.button:hover {
+    border-color: #f4f5f2;
+}
+
+.button:active {
+    transform: scale(0.98);
+    box-shadow: 0 0.5em 1.5em -0.5em hsla(249, 62%, 51%, 0.745);
+}
+
+.bi bi-telephone {
+    background: none;
 }
